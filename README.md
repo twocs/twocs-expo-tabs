@@ -177,6 +177,11 @@ npm run update-docs   # Update LLM documentation files
 
 This template includes built-in support for AI/LLM agents through comprehensive documentation files:
 
+### AI Assistant Instructions
+
+- **`.ai-instructions.md`** - Comprehensive guidelines for AI assistants
+- **`.cursorrules`** - Cursor AI editor specific rules
+
 ### Automatic Documentation
 
 When you set up a new project, the template automatically downloads the latest Expo documentation:

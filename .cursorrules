@@ -1,0 +1,60 @@
+# Cursor/AI Assistant Rules for Expo TypeScript Template
+
+## 📚 Essential Documentation
+
+**CRITICAL**: Always consult these files before making any changes:
+
+1. `llms-template.txt` - Template-specific documentation (READ FIRST)
+2. `llms-full.txt` - Complete Expo documentation (1.4MB+)
+3. `llms-sdk.txt` - Expo SDK API reference
+4. `llms-eas.txt` - Expo Application Services docs
+5. `llms.txt` - Overview and links
+
+Use `read_file` tool to access these files before making changes.
+
+## 🎯 Project Type
+
+This is an **Expo Router + TypeScript template** with strict TypeScript configuration.
+
+## 🔧 Key Rules
+
+1. **TypeScript First**: Maintain strict typing, never use `any`
+2. **Themed Components**: Use components from `components/Themed.tsx` 
+3. **File-based Routing**: Follow Expo Router conventions in `app/` directory
+4. **Theme Context**: Respect the global theme system
+5. **Test Coverage**: Add tests for new functionality
+
+## 📁 Important Files
+
+- `app/_layout.tsx` - Root layout with theme provider
+- `context/ThemeContext.tsx` - Theme management
+- `components/Themed.tsx` - Base themed components
+- `app/(tabs)/` - Tab navigation structure
+
+## 🚨 Before Changes
+
+Always run:
+```bash
+npm run type-check
+npm run lint
+npm run format:check
+```
+
+## 📖 Documentation Priority
+
+1. Check `llms-template.txt` for project context
+2. Reference `llms-sdk.txt` for Expo APIs
+3. Use `llms-full.txt` for comprehensive guidance
+4. Update docs with `npm run update-docs` if needed
+
+## 🧪 Testing
+
+- Run `npm test` after changes
+- Use React Native Testing Library patterns
+- Test theme switching functionality
+
+## 🎨 Styling
+
+- Use theme-aware components
+- Follow existing color scheme in `constants/Colors.ts`
+- Support both light and dark modes

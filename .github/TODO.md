@@ -25,4 +25,4 @@
 [x] Publish to npm as a template package
 [x] Add template to Expo documentation
 [ ] Ensure that all package.json scripts are fully functional.
-  [ ] Fix problem: `npm run web` -> watchman hanging.
+[ ] Fix problem: `npm run web` -> watchman hanging.

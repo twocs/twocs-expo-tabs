@@ -1,4 +1,4 @@
-# 🎉 Template Creation Complete!
+# 🎉 Template Creation Complete
 
 Your Expo TypeScript Theme Template is now ready for distribution and use.
 
@@ -41,7 +41,7 @@ Your Expo TypeScript Theme Template is now ready for distribution and use.
 
 ## 📦 Template Structure
 
-```
+```text
 expo-typescript-theme-template/
 ├── 📱 App Structure
 │   ├── app/                    # Expo Router screens
@@ -72,7 +72,7 @@ expo-typescript-theme-template/
     └── .github/
         ├── workflows/ci.yml   # CI/CD pipeline
         └── ISSUE_TEMPLATE/    # GitHub issue templates
-```
+```text
 
 ## 🚀 Next Steps for Distribution
 
@@ -86,7 +86,7 @@ git commit -m "Initial template release v1.0.0"
 git branch -M main
 git remote add origin https://github.com/twocs/expo-typescript-theme-template.git
 git push -u origin main
-```
+```text
 
 ### 2. Test Template Creation
 
@@ -96,7 +96,7 @@ npx create-expo-app TestApp --template https://github.com/twocs/expo-typescript-
 cd TestApp
 ./setup-template.sh TestApp
 npm start
-```
+```text
 
 ### 3. Optional: Publish to NPM
 
@@ -104,7 +104,7 @@ npm start
 # For wider distribution
 npm login
 npm publish --access public
-```
+```text
 
 ## 🎯 Template Benefits
 
@@ -146,7 +146,7 @@ This template provides:
 - **Learning resource** for developers new to the stack
 - **Foundation** for more specialized templates
 
-## 🎊 Congratulations!
+## 🎊 Congratulations
 
 You've successfully created a comprehensive, production-ready Expo template that includes:
 

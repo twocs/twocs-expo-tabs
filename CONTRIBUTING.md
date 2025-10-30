@@ -1,23 +1,34 @@
 # Contributing to Expo TypeScript Theme Template
 
-Thank you for your interest in contributing! This document provides guidelines for contributing to this template.
+Thank you for your interest in contributing! This document provides
+guidelines for contributing to this template.
 
 ## 🚀 Getting Started
 
 1. **Fork the repository**
 2. **Clone your fork:**
-   ```bash
+
+   ````bash
    git clone https://github.com/twocs/expo-typescript-theme-template.git
    cd expo-typescript-theme-template
-   ```
+   ```text
+
+   ````
+
 3. **Install dependencies:**
-   ```bash
+
+   ````bash
    npm install
-   ```
+   ```text
+
+   ````
+
 4. **Start the development server:**
-   ```bash
+
+   ````bash
    npm start
-   ```
+   ```text
+   ````
 
 ## 🛠 Development Workflow
 
@@ -39,13 +50,13 @@ Thank you for your interest in contributing! This document provides guidelines f
 
 Before submitting your changes, run:
 
-```bash
+````bash
 # Run all quality checks
 npm run lint          # ESLint
 npm run format:check  # Prettier
 npm run type-check    # TypeScript
 npm test              # Jest tests
-```
+```text
 
 ### Commit Guidelines
 
@@ -68,7 +79,7 @@ Example: `feat: add theme toggle animation`
 ```bash
 npm test              # Watch mode for development
 npm run test:ci       # Single run for CI
-```
+```text
 
 ### Writing Tests
 
@@ -89,13 +100,13 @@ describe("ComponentName", () => {
     // Test implementation
   });
 });
-```
+```text
 
 ## 📁 Project Structure
 
 Understanding the template structure:
 
-```
+```text
 ├── app/                    # Expo Router screens
 │   ├── (tabs)/            # Tab navigation
 │   ├── _layout.tsx        # Root layout with providers
@@ -107,7 +118,7 @@ Understanding the template structure:
 │   └── ThemeContext.tsx   # Global theme state
 ├── constants/             # App constants and colors
 └── assets/               # Static assets
-```
+```text
 
 ## 🎯 Areas for Contribution
 
@@ -218,3 +229,4 @@ If you need help:
 4. Reach out to maintainers
 
 Thank you for contributing! 🎉
+````

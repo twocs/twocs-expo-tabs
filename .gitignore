@@ -3,6 +3,8 @@
 # Template specific files to ignore when using as template
 llms*.txt
 check-prettier.sh
+.github/TODO.md
+TEMPLATE_*.md
 
 # dependencies
 node_modules/

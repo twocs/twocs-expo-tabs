@@ -8,7 +8,7 @@ Run the validation script to ensure everything is ready:
 
 ```bash
 ./scripts/validate.sh
-```
+```text
 
 ## 🚀 Distribution Methods
 
@@ -30,12 +30,13 @@ Run the validation script to ensure everything is ready:
    git branch -M main
    git remote add origin https://github.com/twocs/expo-typescript-theme-template.git
    git push -u origin main
-   ```
+   ```text
 
 3. **Test the template:**
+
    ```bash
    npx create-expo-app MyTestApp --template https://github.com/twocs/expo-typescript-theme-template
-   ```
+   ```text
 
 ### Method 2: NPM Package
 
@@ -58,19 +59,20 @@ Run the validation script to ensure everything is ready:
        "LICENSE"
      ]
    }
-   ```
+   ```text
 
 2. **Publish to NPM:**
 
    ```bash
    npm login
    npm publish --access public
-   ```
+   ```text
 
 3. **Test the npm template:**
+
    ```bash
    npx create-expo-app MyTestApp --template @your-username/expo-typescript-theme-template
-   ```
+   ```text
 
 ### Method 3: Local Template
 
@@ -78,7 +80,7 @@ For local development/testing:
 
 ```bash
 npx create-expo-app MyTestApp --template ./path/to/template
-```
+```text
 
 ## 🧪 Testing Your Template
 
@@ -89,7 +91,7 @@ After distribution, test the template thoroughly:
    ```bash
    npx create-expo-app TestApp --template YOUR_TEMPLATE_SOURCE
    cd TestApp
-   ```
+   ```text
 
 2. **Verify setup:**
 
@@ -100,7 +102,7 @@ After distribution, test the template thoroughly:
    npm run lint
    npm run format:check
    npm run type-check
-   ```
+   ```text
 
 3. **Test theme functionality:**
    - Open the app
@@ -123,7 +125,7 @@ npx create-expo-app MyApp --template @your-username/expo-typescript-theme-templa
 cd MyApp
 ./setup-template.sh MyApp
 npm start
-```
+```text
 
 ## 🔄 Maintenance
 
@@ -133,7 +135,7 @@ npm start
 npx expo install --fix
 npm audit fix
 npm update
-```
+```text
 
 ### Versioning
 

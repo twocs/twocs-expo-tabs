@@ -8,22 +8,27 @@ guidelines for contributing to this template.
 1. **Fork the repository**
 2. **Clone your fork:**
 
-   ```bash
+   ````bash
    git clone https://github.com/twocs/expo-typescript-theme-template.git
    cd expo-typescript-theme-template
    ```text
 
+   ````
+
 3. **Install dependencies:**
 
-   ```bash
+   ````bash
    npm install
    ```text
 
+   ````
+
 4. **Start the development server:**
 
-   ```bash
+   ````bash
    npm start
    ```text
+   ````
 
 ## 🛠 Development Workflow
 
@@ -45,7 +50,7 @@ guidelines for contributing to this template.
 
 Before submitting your changes, run:
 
-```bash
+````bash
 # Run all quality checks
 npm run lint          # ESLint
 npm run format:check  # Prettier
@@ -224,3 +229,4 @@ If you need help:
 4. Reach out to maintainers
 
 Thank you for contributing! 🎉
+````

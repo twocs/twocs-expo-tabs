@@ -1,3 +1,4 @@
+
 {
   "name": "expo-typescript-theme-template",
   "main": "expo-router/entry",
@@ -40,7 +41,12 @@
     "type-check": "tsc --noEmit",
     "validate": "bash scripts/validate.sh",
     "update-docs": "bash scripts/fetch-llm-docs.sh",
-    "clean": "rm -rf .expo && rm -rf node_modules/.cache"
+    "clean": "rm -rf .expo && rm -rf node_modules/.cache",
+    "upgrade:check": "npx expo install --check",
+    "upgrade:fix": "npx expo install --fix",
+    "upgrade:doctor": "npx expo-doctor",
+    "upgrade:sdk": "npm install expo@latest",
+    "upgrade:full": "npm run upgrade:sdk && npm run upgrade:fix && npm run upgrade:doctor"
   },
   "jest": {
     "preset": "jest-expo",

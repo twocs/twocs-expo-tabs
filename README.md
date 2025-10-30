@@ -75,12 +75,13 @@ A modern Expo template with TypeScript, theme management, and comprehensive deve
    ```
 
 4. **Run on your device:**
+
    - Install the Expo Go app
    - Scan the QR code from the terminal
 
 ## 📁 Project Structure
 
-```
+```text
 ├── app/                    # App screens (Expo Router)
 │   ├── (tabs)/            # Tab navigation screens
 │   │   ├── _layout.tsx    # Tab layout configuration
@@ -206,7 +207,9 @@ npm run update-docs        # Update all LLM documentation files
 - **Template-Specific**: Includes information about this template's structure
 - **Zero Maintenance**: Automatically handled during project setup
 
-The documentation files are ignored by git (see `.gitignore`) and fetched dynamically, ensuring your template stays lean while providing rich context for AI assistance.
+The documentation files are ignored by git (see `.gitignore`) and fetched
+dynamically, ensuring your template stays lean while providing rich context
+for AI assistance.
 
 ## 📝 Configuration Files
 

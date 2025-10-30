@@ -6,7 +6,7 @@ Your Expo TypeScript Theme Template has been successfully created and validated!
 
 ## 🚀 Repository Information
 
-- **GitHub Repository**: https://github.com/twocs/twoc-expo-tabs
+- **GitHub Repository**: <https://github.com/twocs/twoc-expo-tabs>
 - **Template Name**: `expo-typescript-theme-template`
 - **Current Version**: 1.0.0
 
@@ -46,29 +46,29 @@ npm run lint        # ✅ ESLint passes with 0 errors
 npm run type-check  # ✅ TypeScript compiles successfully
 npm run format      # ✅ Prettier formats code correctly
 npm run validate    # ✅ Template validation passes
-```
+```text
 
 **Note**: Command chaining with `&&` can cause terminal hanging, but individual commands work perfectly.
 
 ## 📦 How to Use the Template
 
-### For New Projects:
+### For New Projects
 
 ```bash
 npx create-expo-app --template https://github.com/twocs/twoc-expo-tabs MyNewApp
 cd MyNewApp
 ./setup-template.sh MyNewApp  # Optional: customize project name
 npm start
-```
+```text
 
-### For Template Development:
+### For Template Development
 
 ```bash
 git clone https://github.com/twocs/twoc-expo-tabs.git
 cd twoc-expo-tabs
 npm install
 npm run validate
-```
+```text
 
 ## 🎯 Key Accomplishments
 

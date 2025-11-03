@@ -1,5 +1,6 @@
 {
   "templateType": "bare-workflow",
+  "postInitScript": "./setup-template.sh",
   "dependencies": [
     "@expo/vector-icons",
     "@react-native-async-storage/async-storage",
